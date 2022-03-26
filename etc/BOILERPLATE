@@ -1,0 +1,19 @@
+This file contains the project’s copypastable boilerplate comment headers.
+
+Boilerplate for C-like languages:
+
+/****************************************************************************\
+ *                            Feeble  C Compiler                            *
+ *                                                                          *
+ *                        Copyright (C) 2021 Aquefir                        *
+ *                 Released under Artisan Software Licence.                 *
+\****************************************************************************/
+
+Hash-based boilerplate (Python, POSIX shell, Makefile):
+
+##############################################################################
+##                            Feeble  C Compiler                            ##
+##                                                                          ##
+##                        Copyright (C) 2021 Aquefir                        ##
+##                 Released under Artisan Software Licence.                 ##
+##############################################################################

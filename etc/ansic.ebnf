@@ -1,0 +1,16 @@
+
+(* ANSI C lexer, described in EBNF *)
+
+CompilationUnit = { BigDeclaration };
+
+BigDeclaration = SubroutineDeclaration | DataDeclaration;
+
+SubroutineDeclaration =
+	{ Identifier },
+	SubroutineName,
+	"(", { SubroutineParameter }, ")",
+	( ";" | SubroutineDefinition );
+
+SubroutineModifier = Identifier;
+
+(* WIP *)
